@@ -3,8 +3,8 @@ local Window = Library.CreateLib("Weapon Fighting Simulator | FinSuomi Hub", "Da
 
 --| TABS |--
 
-local Main = Main:NewTab("Weapon Fighting Sim")
-local Player = Player:NewTab("Discord")
+local Main = Window:NewTab("Weapon Fighting Sim")
+local Player = Window:NewTab("Discord")
 
 
 
