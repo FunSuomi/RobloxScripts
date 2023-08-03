@@ -10,8 +10,8 @@ local Player = Window:NewTab("Discord")
 
 --| MOVEMENT SECTION (CLIENT TAB) |--
 
-local MainSection = Client:NewSection("Scripts") 
-local PlayerSection = Client:NewSection("https://discord.gg/QExYcq4CqQ")
+local MainSection = Main:NewSection("Scripts") 
+local PlayerSection = Player:NewSection("https://discord.gg/QExYcq4CqQ")
 
 MainSection:NewButton("Sensation", "idk whats the info", function()
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3cfb53d7480806ad562e77eaacca6e19.lua"))()
