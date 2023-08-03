@@ -1,9 +1,9 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Arsenal | FinSuomi Hub", "DarkTheme")
+local Window = Library.CreateLib("Blox Fruit | FinSuomi Hub", "DarkTheme")
 
 --| TABS |--
 
-local Main = Window:NewTab("Arsenal")
+local Main = Window:NewTab("Blox Fruit")
 local Player = Window:NewTab("Discord")
 
 
