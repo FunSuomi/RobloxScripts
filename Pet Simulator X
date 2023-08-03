@@ -1,0 +1,24 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Pet Simulator X | FinSuomi Hub", "DarkTheme")
+
+--| TABS |--
+
+local Main = Window:NewTab("Pet Simulator")
+
+
+
+--| MOVEMENT SECTION (CLIENT TAB) |--
+
+local MainSection = Client:NewSection("Scripts") 
+
+MainSection:NewButton("RAFA HUB", "BEST AUTO FARM IN THE GAME", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad424/TradeLags/main/mainstring.lua", true))()
+end)
+
+MainSection:NewButton("PET CHANGER", "just change your pet", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ReturnString9999/P-S-X-main-lulz/main/Changer/.lua"))()
+end)
+
+MainSection:NewButton("PROJECT WD", "just change your pet", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Pewcio241/Project-WD/main/AutoFarm.lua"))()
+end)
