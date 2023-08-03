@@ -1,9 +1,9 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Strongest BattleGrounds | FinSuomi Hub", "DarkTheme")
+local Window = Library.CreateLib("Murder Mystery 2 | FinSuomi Hub", "DarkTheme")
 
 --| TABS |--
 
-local Main = Window:NewTab("Strongest Battle..")
+local Main = Window:NewTab("Murder Mystery")
 local Player = Window:NewTab("Discord")
 
 
