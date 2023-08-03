@@ -1,0 +1,33 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Anime Warriors Simulator 2  | FinSuomi Hub", "DarkTheme")
+
+--| TABS |--
+
+local Main = Window:NewTab("Anime Warriors Sim 2")
+local Player = Window:NewTab("Discord")
+
+--| MOVEMENT SECTION (CLIENT TAB) |--
+
+local MainSection = Main:NewSection("Scripts")
+local PlayerSection = Player:NewSection("https://discord.gg/QExYcq4CqQ")
+
+MainSection:NewButton("Platinum Hub #1", "BEST!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Loader/main/PlatiniumLoader"))()
+end)
+
+MainSection:NewButton("Unnamed Hub", "OP GUI", function()
+    getgenv().key = "GoGetALife";
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Ner0ox/sexy-script-hub/main/Loader.lua"))()
+end)
+
+MainSection:NewButton("JumbleScripts Hub", "UPDATES REALLT FAST = can't be patched", function()
+    loadstring(game:HttpGet("https://jumblescripts.com/AnimeWarriorsSimulator2.lua"))()
+end)
+ 
+MainSection:NewButton("Verny Hub V2", "OP!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/666dasdlolok/VernyHubV2/main/Main"))()   
+end)
+
+PlayerSection:NewButton("OUR DISCORD", "JOIN OUR DISCORD SERVER", function()
+    print("https://discord.gg/QExYcq4CqQ")
+end)
