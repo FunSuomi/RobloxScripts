@@ -4,12 +4,16 @@ local Window = Library.CreateLib("Pet Simulator X | FinSuomi Hub", "DarkTheme")
 --| TABS |--
 
 local Main = Window:NewTab("Pet Simulator")
+local Player = Window:NewTab("Discord")
 
 
 
 --| MOVEMENT SECTION (CLIENT TAB) |--
 
 local MainSection = Client:NewSection("Scripts") 
+local PlayerSection = Client:NewSection("https://discord.gg/QExYcq4CqQ")
+
+
 
 MainSection:NewButton("RAFA HUB", "BEST AUTO FARM IN THE GAME", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad424/TradeLags/main/mainstring.lua", true))()
@@ -21,4 +25,8 @@ end)
 
 MainSection:NewButton("PROJECT WD", "just change your pet", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Pewcio241/Project-WD/main/AutoFarm.lua"))()
+end)
+
+PlayerSection:NewButton("OUR DISCORD", "JOIN OUR DISCORD SERVER", function()
+    print("https://discord.gg/QExYcq4CqQ")
 end)
