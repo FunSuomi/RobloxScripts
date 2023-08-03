@@ -10,8 +10,8 @@ local Player = Window:NewTab("Discord")
 
 --| MOVEMENT SECTION (CLIENT TAB) |--
 
-local MainSection = Client:NewSection("Script") 
-local PlayerSection = Client:NewSection("https://discord.gg/QExYcq4CqQ")
+local MainSection = Main:NewSection("Scripts") 
+local PlayerSection = Player:NewSection("https://discord.gg/QExYcq4CqQ")
 
 MainSection:NewButton("Hydra Hub #1", "BEST + NO KEYS", function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/Robobo2022/script/main/Main.lua"), true))()
