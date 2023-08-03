@@ -1,0 +1,30 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Combat Warriors | FinSuomi Hub", "DarkTheme")
+
+--| TABS |--
+
+local Main = Window:NewTab("Combat Warriors")
+local Player = Window:NewTab("Discord")
+
+
+
+--| MOVEMENT SECTION (CLIENT TAB) |--
+
+local MainSection = Client:NewSection("Scripts") 
+local PlayerSection = Client:NewSection("https://discord.gg/QExYcq4CqQ")
+
+MainSection:NewButton("Max Hub", "Parry + Kill Auras", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ufouzzed/CWShitterHub/main/CWScript.lua"))()
+end)
+
+MainSection:NewButton("Zap Hub", "WORK ON ALL EXPLOITS", function()
+    loadstring(game:HttpGet("https://www.itots.tk/zaphub/combat-warriors.lua", true))()
+end)
+
+MainSection:NewButton("TickWare", "BEST NO KEYS", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/ticks"))()
+end)
+
+PlayerSection:NewButton("OUR DISCORD", "JOIN OUR DISCORD SERVER", function()
+    print("https://discord.gg/QExYcq4CqQ")
+end)
