@@ -10,8 +10,8 @@ local Player = Window:NewTab("Discord")
 
 --| MOVEMENT SECTION (CLIENT TAB) |--
 
-local MainSection = Client:NewSection("Scripts") 
-local PlayerSection = Client:NewSection("https://discord.gg/QExYcq4CqQ")
+local MainSection = Main:NewSection("Scripts") 
+local PlayerSection = Player:NewSection("https://discord.gg/QExYcq4CqQ")
 
 MainSection:NewButton("Max Hub", "Parry + Kill Auras", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ufouzzed/CWShitterHub/main/CWScript.lua"))()
