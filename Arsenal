@@ -1,0 +1,40 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Arsenal | FinSuomi Hub", "DarkTheme")
+
+--| TABS |--
+
+local Main = Window:NewTab("Arsenal")
+local Player = Window:NewTab("Discord")
+
+
+
+--| MOVEMENT SECTION (CLIENT TAB) |--
+
+local MainSection = Client:NewSection("Scripts") 
+local PlayerSection = Client:NewSection("https://discord.gg/QExYcq4CqQ")
+
+
+
+MainSection:NewButton("OWL HUB", "lot of cool things", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+
+MainSection:NewButton("Vestra", "the thing is crazy", function()
+    loadstring(game:HttpGet("https://script.vestra.tech"))()
+end)
+
+MainSection:NewButton("V.G Hub", "it's good ngl", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+
+MainSection:NewButton("Unfair Hub", "its so unfair T_T", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
+end)
+
+MainSection:NewButton("Bolts Hub", "its so OP", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fusiongreg/BoltsHubV5/main/Main", true))()
+end)
+
+PlayerSection:NewButton("OUR DISCORD", "JOIN OUR DISCORD SERVER", function()
+    print("https://discord.gg/QExYcq4CqQ")
+end)
