@@ -1,0 +1,34 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Jail Break | FinSuomi Hub", "DarkTheme")
+
+--| TABS |--
+
+local Main = Window:NewTab("Jail Break")
+local Player = Window:NewTab("Discord")
+
+
+
+--| MOVEMENT SECTION (CLIENT TAB) |--
+
+local MainSection = Client:NewSection("Scripts") 
+local PlayerSection = Client:NewSection("https://discord.gg/QExYcq4CqQ")
+
+MainSection:NewButton("Sensation", "idk whats the info", function()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3cfb53d7480806ad562e77eaacca6e19.lua"))()
+end)
+
+MainSection:NewButton("Flare Hub", "Auto Arrest", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/GhP3DdKx"))()
+end)
+
+MainSection:NewButton("Salazar Hub", "Keys In https://discord.gg/56jghhHsyg", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xxSirLotte/Salazar/main/SalazarHub"))() 
+end)
+
+MainSection:NewButton("Project Evo V4", "NEW", function()
+    loadstring(game:HttpGet("https://projectevo.xyz/v4/script.lua", true))();
+end)
+
+PlayerSection:NewButton("OUR DISCORD", "JOIN OUR DISCORD SERVER", function()
+    print("https://discord.gg/QExYcq4CqQ")
+end)
