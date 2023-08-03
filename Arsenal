@@ -3,8 +3,8 @@ local Window = Library.CreateLib("Arsenal | FinSuomi Hub", "DarkTheme")
 
 --| TABS |--
 
-local Main = Main:NewTab("Arsenal")
-local Player = Player:NewTab("Discord")
+local Main = Window:NewTab("Arsenal")
+local Player = Window:NewTab("Discord")
 
 
 
