@@ -1,0 +1,26 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Weapon Fighting Simulator | FinSuomi Hub", "DarkTheme")
+
+--| TABS |--
+
+local Main = Main:NewTab("Weapon Fighting Sim")
+local Player = Player:NewTab("Discord")
+
+
+
+--| MOVEMENT SECTION (CLIENT TAB) |--
+
+local MainSection = Main:NewSection("Scripts") 
+local PlayerSection = Player:NewSection("https://discord.gg/QExYcq4CqQ")
+
+MainSection:NewButton("Shit Boy Hub", "OP", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Solx69/Shit-Boy-Hub-Main/main/Master.lua'))();
+end)
+
+MainSection:NewButton("Auto Farm", "ONLY AUTO FARM, NO GUI", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/FunSuomi/Others/main/Dungeon%20Quest'),true))()
+end)
+
+PlayerSection:NewButton("OUR DISCORD", "JOIN OUR DISCORD SERVER", function()
+    print("https://discord.gg/QExYcq4CqQ")
+end)
