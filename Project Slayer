@@ -32,5 +32,5 @@ MainSection:NewButton("Carley Hub", "Project Slayer NEW SCRIPT! (BEST)", functio
 end)
 
 PlayerSection:NewButton("OUR DISCORD", "JOIN OUR DISCORD SERVER", function()
-    print("https://discord.gg/QExYcq4CqQ")
+    toclipboard("https://discord.gg/QExYcq4CqQ")
 end)
