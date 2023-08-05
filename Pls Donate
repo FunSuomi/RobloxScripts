@@ -20,5 +20,5 @@ MainSection:NewButton("Fake Donate", "fake donate to others", function()
 end)
 
 PlayerSection:NewButton("OUR DISCORD", "JOIN OUR DISCORD SERVER", function()
-    print("https://discord.gg/QExYcq4CqQ")
+    toclipboard("https://discord.gg/QExYcq4CqQ")
 end)
